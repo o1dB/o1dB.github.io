@@ -33,7 +33,7 @@
         -->
 
   <meta charset="UTF-8">
-  <title>归档 - o1dB</title>
+  <title>友情链接 - o1dB</title>
 
   <!-- Favicons -->
   <link rel="icon shortcut" type="image/ico" href="/images/favicon.png">
@@ -63,7 +63,7 @@
   <!-- The Open Graph protocol -->
   <meta property="og:url" content="https://o1db.github.io">
   <meta property="og:type" content="blog">
-  <meta property="og:title" content="归档 - o1dB | o1dB">
+  <meta property="og:title" content="友情链接 - o1dB | o1dB">
   <meta property="og:image" content="/images/favicon.png">
   
 
@@ -418,111 +418,50 @@
     <script src="/js/lightgallery.min.js"></script>
 
     <div id="barba-wrapper">
-      <div class="barba-container"  data-namespace="archive">
+      <div class="barba-container"  data-namespace="post">
         
-  
-<div class="theme-archive">
-  <div class="theme-archive__index">
-    <div class="theme-archive__header">
-      <div class="theme-archive__header__bg">
-        <img class="mdui-img-fluid mdui-img-rounded" src="/images/bg.png"/>
-      </div>
-      <div class="theme-archive__header__content" style="background-color:#eeeeee">
-        <img class="mdui-img-circle theme-archive__header__avatar" src="/images/avatar.png"/>
-        <div class="theme-archive__header__info">
-          <div class="theme-archive__header__name">
-            o1dB
-          </div>
-          <div class="theme-archive__header__slogan">
-            不想成为黑客大神的白帽子不是一个好菜鸟
-          </div>
+  <div class="theme-friends">
+  <div class="mdui-container-fluid">
+    <div>
+      
+        <div class="theme-friends__title">
+          友链页面标语，可留空
         </div>
-        <div class="theme-spacer mdui-hidden-sm-down"></div>
-        
-          <button class="theme-archive__header__button mdui-btn mdui-color-theme-accent mdui-ripple mdui-btn-raised" mdui-dialog="{target: '#contactDialog'}">联系我</button>
-        
-      </div>
+      
     </div>
-    <div class="theme-archive__items mdui-container-fluid">
-      <div class="theme-archive__items__title mdui-text-color-theme-secondary">
-        分类
-      </div>
-      <div class="mdui-row">
-        
-      </div>
-    </div>
-    <div class="theme-archive__items mdui-container-fluid">
-      <div class="theme-archive__items__title mdui-text-color-theme-secondary">
-        标签
-      </div>
-      <div class="mdui-row">
-        
-      </div>
-    </div>
-    <div class="theme-archive__items mdui-container-fluid">
-      <div class="theme-archive__items__title mdui-text-color-theme-secondary">
-        年份
-      </div>
+    
       <div class="mdui-row">
         
           
-          <div class="mdui-col-xs-6 mdui-col-md-3 theme-archive__items__item">
-            <a href="/archives/2019" target="_self" class="theme-link--no-style">
-              <div class="mdui-card mdui-color-teal">
-                <div class="mdui-card-media" style="background-image: url(/images/random/15.png)"></div>
-                <div class="theme-archive__items__content theme-archive__items__content--no-length">
-                  <img class="mdui-img-circle theme-archive__items__avatar" src="/images/avatar.png" />
-                  <div class="theme-archive__items__text-title">2019</div>
-                </div>
+            <div class="mdui-col-xs-6 mdui-col-md-3">
+              <div class="mdui-card mdui-hoverable theme-friends__container">
+                <a href="www.baidu.com" target="_blank" class="theme-friends__container__content">
+                  <img class="theme-friends__container__avatar" src="" alt="Example"/>
+                  <div class="theme-friends__container__name mdui-text-color-theme-text">
+                    Example
+                  </div>
+                  <div class="theme-friends__container__descr mdui-text-color-theme-text mdui-text-truncate">
+                    百度一下你就知道
+                  </div>
+                  <div class="theme-friends__container__spacer"></div>
+                  <div class="mdui-card-actions theme-friends__container__action--no-style">
+                    <button class="mdui-btn mdui-ripple mdui-btn-block mdui-text-color-theme-accent">参观</button>
+                  </div>
+                </a>
               </div>
-            </a>
-          </div>
+            </div>
+          
         
       </div>
-    </div>
+    
   </div>
-  
-    <div class="mdui-dialog" id="contactDialog">
-      <div class="mdui-dialog-title">
-        如何联系我
-      </div>
-      <div class="mdui-dialog-content">
-        <div class="mdui-list">
-          
-            <a href="https://twitter.com" title="Twitter" class="mdui-list-item mdui-ripple" target="_blank">
-              
-                <i class="mdui-list-item-icon mdui-icon fa fa-twitter mdui-text-center"></i>&emsp;
-              
-              
-              
-              Twitter
-            </a>
-          
-            <a href="https://facebook.com" title="Facebook" class="mdui-list-item mdui-ripple" target="_blank">
-              
-              
-              
-                <i class="mdui-list-item-icon"></i>&emsp;
-              
-              Facebook
-            </a>
-          
-        </div>
-      </div>
-      <div class="mdui-dialog-actions">
-        <button class="mdui-btn mdui-ripple" mdui-dialog-close>
-          关闭
-        </button>
-      </div>
-    </div>
-  
   <button id="index-fab" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent mdui-fab-hide" onclick="smoothScroll.animateScroll( 0 );">
   <i class="mdui-icon material-icons">&#xe5d8;</i>
 </button>
 
 </div>
 <script type="text/javascript">
-  themeRuntime.scriptsMap.archive = [];
+  themeRuntime.scriptsMap.post = [];
   (function() {
     var fabTopFlag = false;
     var fabEl = document.getElementById('index-fab');
@@ -544,23 +483,8 @@
       el: window,
       removed: false
     }
-    themeRuntime.scriptsMap.archive.push(listener)
+    themeRuntime.scriptsMap.post.push(listener)
   })();
-</script>
-<script>
-    window.addEventListener("scroll", parallaxImg)
-    function parallaxImg(){
-      var bodyScrolled = (document.documentElement && document.documentElement.scrollTop) || document.body.scrollTop;
-      document.querySelector('.theme-archive__header__bg img')
-        .style.transform = 'translateY(' + bodyScrolled * 0.4 + 'px)';
-    }
-    var listener = {
-      function: parallaxImg,
-      event: 'scroll',
-      el: window,
-      removed: false
-    }
-    themeRuntime.scriptsMap.archive.push(listener)
 </script>
 
 
